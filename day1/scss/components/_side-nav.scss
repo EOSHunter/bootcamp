@@ -1,0 +1,15 @@
+.side-nav {
+
+	&__services {
+		font-weight: bold;
+		color: black;
+	}
+
+	&__design {
+		color: black;
+	}
+}
+
+.side-nav li a:not(.button) {
+	color: black;
+}

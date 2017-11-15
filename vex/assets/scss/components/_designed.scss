@@ -1,0 +1,27 @@
+.designed {
+
+	background-color: $primary-orange;
+	height: 598px;
+	position: relative;
+
+	&__heading {
+		font-size: 40px;
+		line-height: 48px;
+		color: white;
+		margin-top: 164px;
+		margin-bottom: 38px;
+	}
+
+	&__img {
+		width: 226px;
+		position: absolute;
+		transform: translateY(-50%);
+		margin-top: 100%;
+	}
+
+	&__text {
+		font-size: 18px;
+		line-height: 21px;
+		color: white;
+	}
+}

@@ -1,0 +1,75 @@
+.contact {
+
+	&__text1 {
+		font-size: 16px;
+		font-weight: bold;
+		line-height: 24px;
+		margin-bottom: 6px;
+	}
+
+	&__text2 {
+		font-size: 16px;
+		line-height: 24px;
+		margin-bottom: 5px;
+	}
+
+	&__text3 {
+		font-size: 16px;
+		line-height: 24px;
+		color: $persian-blue;
+	}
+
+	&__text4 {
+		font-size: 16px;
+		line-height: 24px;
+		margin-bottom: 30px;
+	}
+
+	&__text5 {
+		font-size: 18px;
+		line-height: 24px;
+		font-weight: bold;
+	}
+
+	&__image {
+		margin-bottom: 28px;
+	}
+
+	&__link {
+		color: $persian-blue;
+	}
+
+	&__label {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	&__input {
+		height: 47px;
+		width: 471px;
+		border: 1px solid #979797;
+		outline: none;
+	}
+
+	&__input2 {
+		height: 157px;
+		width: 471px;
+		border: 1px solid #979797;
+		outline: none;
+	}
+
+	.button {
+		background-color: $persian-blue;
+		color: white;
+		border-radius: 3px;
+		width: 101px;
+		height: 35px;
+		line-height: 20px;
+		font-size: 14px;
+		padding: 8px 27px;
+	}
+}
+
+.contact-header {
+	margin-bottom: 34px;
+}

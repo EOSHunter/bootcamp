@@ -1,0 +1,22 @@
+.hero {
+	
+	margin-bottom: 192px;
+
+	&__heading {
+		font-size: 60px;
+		line-height: 72px;
+		color: $primary-blue;
+		margin-top: 159px;
+		margin-bottom: 27px;
+	}
+
+	&__image {
+		margin-top: 111px;
+		width: 227px;
+	}
+
+	&__text {
+		font-size: 18px;
+		line-height: 24px;
+	}
+}

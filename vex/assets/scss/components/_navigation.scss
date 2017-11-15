@@ -1,0 +1,17 @@
+.navigation {
+	height: 62px;
+
+	&__title {
+		font-size: 25px;
+		line-height: 30px;
+		font-weight: 400;
+	}
+
+	&__item {
+		font-size: 13px;
+		line-height: 62px;
+		font-weight: 400;
+		text-transform: uppercase;
+		color: black;
+	}
+}

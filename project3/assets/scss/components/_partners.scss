@@ -1,0 +1,44 @@
+.partners {
+	display: inline-block;
+
+	img {
+		height: 120px;
+		margin-bottom: 17px;
+	}
+
+	&__name {
+		color: $color-black;
+		font-weight: bold;
+		font-family: $font-primary;
+		font-size: 14px;
+		line-height: 17px;
+		margin-bottom: 12px;
+	}
+
+	&__text {
+		color: #666;
+		font-size: 14px;
+		line-height: 1;
+		font-weight: 200;
+		font-family: $font-secondary;
+		margin: 0 auto;
+		margin-bottom: 25px;
+	}
+
+	.button {
+		background-color: rgba(0, 0, 0, 0);
+	    border: 2px solid rgb(255, 78, 80);
+	    border-radius: 999px;
+	    height: 40px;
+	    color: rgb(255, 78, 81);
+	    line-height: 36px;
+	    padding-top: 0;
+	    padding-bottom: 0;
+	    font-size: 14px;
+	    font-family: "Montserrat",sans-serif;
+	}
+	
+	[class*="column"]+[class*="column"]:last-child {
+    	float: left;
+	}
+}

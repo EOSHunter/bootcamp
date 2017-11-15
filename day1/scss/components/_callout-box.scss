@@ -1,0 +1,45 @@
+.callout-box {
+
+	padding: 20px;
+	border: 1px solid grey;
+	margin-bottom: 103px;
+
+	&__image1 {
+		float: left;
+		padding-right: 20px;
+	}
+
+	&__title {
+	font-weight: bold;
+	font-size: 18px;
+    line-height: 24px;
+	}
+
+	&__text {
+		font-size: 14px;
+   		line-height: 20px;
+	}
+
+	&__title2 {
+	font-weight: bold;
+	font-size: 18px;
+    line-height: 24px;
+	}
+
+	&__text2 {
+		font-size: 14px;
+   		line-height: 20px;
+	}
+
+	.button {
+    	line-height: 20px;
+	    font-size: 14px;
+	    padding: 6px 0px;
+	    color: $persian-blue;
+	    background-color: rgb(255, 255, 255);
+	    width: 101px;
+	    height: 35px;
+	    border-radius: 3px;
+	    border: 1px solid rgb(128, 128, 128);
+	}
+}

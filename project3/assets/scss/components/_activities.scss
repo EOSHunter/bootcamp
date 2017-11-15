@@ -1,0 +1,135 @@
+.activities {
+
+	padding: 10px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+	&__title {
+		font-family: "Montserrat",sans-serif;
+	    font-size: 22px;
+	    font-weight: bold;
+	    color: rgb(255, 255, 255);
+	    margin-top: 0;
+	    margin-bottom: 9px;
+	    position: absolute;
+	    width: 95%;
+	    top: 50%;
+	    transform: translateY(-50%);
+	}
+
+	&__section {
+		height: 120px;
+	    position: relative;
+	    margin-bottom: 10px;
+	    width: 100%;
+	    border-radius: 4px;
+	    background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+
+		&:before {
+		    content: '';
+		    width: 100%;
+		    height: 100%;
+		    border-radius: 4px;
+		    top: 0;
+		    left: 0;
+		    position: absolute;
+		    background: rgba(0,0,0,.2);
+		}
+	}
+
+	&__sports {
+		background-image: url( '../img/sport.jpg' );
+	}
+
+	&__health {
+		background-image: url( '../img/health.jpg' );
+	}
+
+	&__extreme {
+		background-image: url( '../img/extreme.jpg' );
+		background-position-x: 87%;
+	}
+
+	&__games {
+		background-image: url( '../img/games.jpg' );
+	}
+
+	&__culture {
+		background-image: url( '../img/culture2.jpg' );
+	}
+
+	&__enjoy {
+		background-image: url( '../img/enjoy.jpg' );
+	}
+
+	&__travel {
+		background-image: url( '../img/travel.jpg' );
+		float: left;
+		background-position: top;
+	}
+
+	[class*="column"]+[class*="column"]:last-child {
+	    float: left;
+	}
+
+	@media (min-width: 642px ) and (max-width: 1003px) {
+
+		&__title {
+			width: 90%;
+		}
+
+		&__sports {
+		    height: 310px;
+		    width: 236px;
+		    display: inline-block;
+		}
+
+		&__health {
+		    height: 310px;
+		    width: 236px;
+		    margin-left: 20px;
+		}
+
+		&__extreme {
+			width: 236px;
+			height: 310px;
+			margin-left: 20px;
+		}
+
+		&__games {
+			height: 310px;
+		    width: 236px;
+		    margin-top: 10px;
+		}
+
+		&__culture {
+			height: 310px;
+		    width: 492px;
+		    margin-left: 20px;
+		    margin-top: 10px;
+		}
+
+		&__enjoy {
+			height: 310px;
+		    width: 492px;
+		    margin-top: 10px;
+		}
+
+		&__travel {
+			height: 310px;
+		    width: 236px;
+		    margin-left: 20px;
+		    margin-top: 10px;
+			background-position: left;
+		}
+	}
+
+	@media (min-width: 768px) and (max-width: 1200px) {
+		&__extreme {
+			background-image: url( '../img/culture.jpg' );
+		}
+	}
+}

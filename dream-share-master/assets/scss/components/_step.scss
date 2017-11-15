@@ -1,0 +1,40 @@
+.step {
+	color: white;
+	border-radius: 4px;
+	padding: 20px;
+	height: 240px;
+	display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
+	&__title {
+		font-size: 24px;
+		line-height: 1;
+		color: white;
+		font-weight: bold;
+		font-family: $font-secondary;
+	}
+}
+
+.step--1 {
+	background-image: url( '../img/img1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 10px;
+}
+
+.step--2 {
+	background-image: url( '../img/img2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 10px;
+}
+
+.step--3 {
+	background-image: url( '../img/img3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}

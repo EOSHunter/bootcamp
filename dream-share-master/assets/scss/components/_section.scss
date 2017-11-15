@@ -1,0 +1,29 @@
+.section {
+	
+
+	&__title {
+		color: #444;
+		font-family: $font-primary;
+		font-size: 22px;
+		line-height: 26px;
+		margin-top: 35px;
+		text-align: center;
+		font-weight: bold;
+	}
+}
+
+.section--hero {
+	background-image: url( '../img/hero-bg.jpg' );
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+
+
+	.row,
+	.columns {
+		height: 100vh;
+	}
+
+	
+}

@@ -1,0 +1,19 @@
+.button {
+	background-color: $sunset-orange;
+	border-radius: 999px;
+	font-family: $font-secondary;
+	/*height: 36px;*/
+	line-height: 36px;
+	padding-top: 0;
+	padding-bottom: 0;
+	font-size: 14px;
+
+	&.secondary {
+		background-color: transparent;
+		border: 2px solid white;
+	}
+
+	&.info {
+		background-color: transparent;
+	}
+}

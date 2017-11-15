@@ -1,0 +1,27 @@
+.features {
+
+	&__heading {
+		font-size: 40px;
+		line-height: 48px;
+		margin-bottom: 62px;
+	}
+
+	&__img {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 93px;
+		width: 240px;
+	}
+
+	&__title {
+		font-size: 20px;
+		line-height: 28px;
+		margin-bottom: -2px;
+	}
+
+	&__text {
+		font-size: 18px;
+		line-height: 21px;
+		margin-bottom: 33px;
+	}
+}
